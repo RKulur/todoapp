@@ -1,7 +1,7 @@
 import "./style.css";
-import insertTodo from "./insertTodo";
-import deleteTodo from "./deleteTodo";
-import displayTodos from "./displayTodos";
+import insertTodo from "./components/insertTodo";
+import deleteTodo from "./components/deleteTodo";
+import displayTodos from "./components/displayTodos";
 import { Todo } from "./interface/Todo";
 
 document.querySelector<HTMLDivElement>("#app")!.innerHTML = `

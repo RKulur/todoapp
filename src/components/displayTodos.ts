@@ -1,5 +1,5 @@
 import insertTodo from "./insertTodo";
-import { Todo } from "./interface/interface";
+import { Todo } from "./interface/Todo";
 
 export default function displayTodos(element: Element, todos: Todo[]) {
   todos &&

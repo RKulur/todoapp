@@ -12,7 +12,7 @@ export default function insertTodo(
     <input type='checkbox' data-todoid="${todoId}" id="checkbox" ${
       checked ? "checked" : ""
     } class="mr-2 md:mr-4 lg:mr-6 scale-110" />
-    <p class="${checked ? "text-gray-500 line-through" : ""}">${todo}</p>
+    <p class="${checked ? "text-gray-500 line-through" : ""} flex justify-center items-center">${todo}</p>
 </div>
 <div class="flex justify-end">
 <button id="deleteBtn" data-todoid="${todoId}" class="bg-red-400 py-2 px-4 rounded-md font-bold text-white text-lg scale-75 transition-all active:scale-[70%]">x</button>

@@ -11,7 +11,7 @@ document.querySelector<HTMLDivElement>("#app")!.innerHTML = `
       <h1 class=" text-center text-[2em] font-bold">TODOs</h1>
     </div>
     <form id="form" class='border-2 flex justify-between w-full'>
-      <input class='p-2  min-w-1 outline-none' type='text' placeholder="Enter the note"/>
+      <input class='p-2  min-w-1 outline-none' type='text' placeholder="Enter a todo"/>
       <button type='submit'class='px-3 md:px-6 bg-green-300 active:scale-95'>Add</button>
     </form>
     <div id='todoContainer' class="w-full"></div>

@@ -8,7 +8,7 @@ document.querySelector<HTMLDivElement>("#app")!.innerHTML = `
 <div class="h-screen flex justify-center items-center">
   <div id="" class=" h-[35rem] w-72 md:w-[35rem] lg:w-[50rem] xl:w-[60rem] flex flex-col gap-4 items-center">
     <div class='w-full'>
-      <h1 class=" text-center text-[2em] font-bold">TODO APP</h1>
+      <h1 class=" text-center text-[2em] font-bold">TODOs</h1>
     </div>
     <form id="form" class='border-2 flex justify-between w-full'>
       <input class='p-2  min-w-1 outline-none' type='text' placeholder="Enter the note"/>
